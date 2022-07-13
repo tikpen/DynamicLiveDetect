@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DynamicLiveDetect_Example' do
+  pod 'DynamicLiveDetect', :path => '../'
+
+  target 'DynamicLiveDetect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
