@@ -1,0 +1,6 @@
+framework module DynamicLiveDetect {
+  umbrella header "DynamicLiveDetect-umbrella.h"
+
+  export *
+  module * { export * }
+}

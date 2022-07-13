@@ -1,0 +1,16 @@
+PODS:
+  - DynamicLiveDetect (0.1.0)
+
+DEPENDENCIES:
+  - DynamicLiveDetect (from `../`)
+
+EXTERNAL SOURCES:
+  DynamicLiveDetect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DynamicLiveDetect: 32820ea7ec2033edade713b933ce33356317132d
+
+PODFILE CHECKSUM: 621e6f81f7005941f37a53bf95c92401a5a060a1
+
+COCOAPODS: 1.9.1

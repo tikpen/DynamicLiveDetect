@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08546412BC4FDF6CF3E38939450E1231 /* DynamicLiveDetectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1154BAF8BEB31C431963AE7064C5B34 /* DynamicLiveDetectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3C12A287C2A67B4EF2E3F0EC5D8A53 /* Pods-DynamicLiveDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3936F07E95AC430DF8C275A8D0DBD8 /* Pods-DynamicLiveDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		136F03D5644BF0B11200AA5CAE1A5625 /* UIView+ZPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA07AFA031C72BA5A8FE7D0D26E7BCF /* UIView+ZPFrame.m */; };
+		291C954D748FF55A7DA9515935196202 /* DynamicLiveDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3663B8491A3805D1CEB4D7D2A011407A /* DynamicLiveDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D03363A3DF9CD95E8C0E8D02E8E9B3 /* FUImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8F76CD789E4F5DD4E5B8FFB522BEB4 /* FUImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE52DBBD1DD34B7E9A6138F4F78B3A9 /* XYDashLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D817020624BBEDD29FD252CF1BFFDAB3 /* XYDashLineProgress.m */; };
+		3ABCE76DF6F172891BCBC3CF5EDF2ECA /* UIView+XYCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2981AF3FCEFAD832085C10DA51547B /* UIView+XYCapture.m */; };
+		3CC824DB3B473E557A5D8B0EEB15BF44 /* DynamicLiveDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7AE6526BFA0AAA7B2E400B3DB2B048 /* DynamicLiveDetectViewController.m */; };
+		3F0A9523A1035D5D1E7F1454BD4151A0 /* FUOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC8023E70A51ED10C5477E56EE3E062 /* FUOpenGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4466C872DCDC5BC2C43B173FBA7BBAB0 /* DynamicLiveDetectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E7E08A20C5F1A74E748222D4BCC7E2 /* DynamicLiveDetectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53547026C6118E119CC013E9C91307F5 /* Pods-DynamicLiveDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A35E5CD8B3208CD05A1FB450734A5 /* Pods-DynamicLiveDetect_Tests-dummy.m */; };
+		567E27333371EF153BD2B192B971731C /* DynamicLiveDetectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05DCA9FBE325DA460B02A41B34B3F3 /* DynamicLiveDetectManager.m */; };
+		6F4CAB1B3AD85B2C083243A19B0D622A /* LLGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33165372AEBB62015A46A1F4D493E8D5 /* LLGifImageView.m */; };
+		7DD416EAC23E2E5A37AE052AEF4A1C22 /* FUOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4349B6766A1892AE639F3FEEB9770E /* FUOpenGLView.m */; };
+		82E40917117B5D08DCC945FDAF4A2B93 /* DynamicLiveDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EACD467FB939A406BDFB63B4457309E /* DynamicLiveDetect-dummy.m */; };
+		8534A424345755CA5586F1E8270E2606 /* FUMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64E710EB8BF46C6BF695C7BCA09CF /* FUMusicPlayer.m */; };
+		97C1B662AA2679D21E30D65D3C1A9908 /* UIView+ZPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3AC0956B22A1A190000091742FE9CF /* UIView+ZPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0A77CBA6669C5410C64B3FD4A9562A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F4B331A6B23A6797D6AB0D25D3D914F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F8F77B02F94761D4EE6F56BB14B9CC8 /* FUCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C303A758DE9E4AA2FBC09AE42E071DCC /* FUCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A22A197B02D798CB65E567C46A02A688 /* UIView+XYCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C848CC5D686DA4596AB8D03C6C225901 /* UIView+XYCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA1E1B41E9BEE85A9DFF03B289F7F44A /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908BB759DF4D0E20F717A7D576C9745 /* WCLRecordEncoder.m */; };
+		C1927D276F425AC68AEC72A05A5E7054 /* Pods-DynamicLiveDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2BF453795C8C49714847766766DAAB /* Pods-DynamicLiveDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE83328F18CE0C2BFA562CFB6E16181 /* LLGifImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3994F270DAC2C175390A8FE4C7B3E2F0 /* LLGifImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED1A10819763A395217D953BA2A1442 /* WCLRecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6F540301EE354411F1F8E1516E441A /* WCLRecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FAC70FFAF27534846AE63171970240 /* FUImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 470566EF8849A3CC1A3F0E4028127C8D /* FUImageHelper.m */; };
+		EB5A7C52C6E8745BCD8D2EE7E3D152AC /* FUMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFF0BCEF14CCA0B0B14C32C76CBD179 /* FUMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0679F490970DC6DEEC384BA8ADD0990 /* Pods-DynamicLiveDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EFE6DF7E8AB1E48CA41995E15E35 /* Pods-DynamicLiveDetect_Example-dummy.m */; };
+		F1C8A32CE201C3B03DFAADA9C698609D /* FUVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A9D10078BD7720C9F456EFAA23578 /* FUVideoReader.m */; };
+		F331794DFA34D2E5B4B068A6B4373719 /* FUVideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F218756A6C35383691D343443A82A8D /* FUVideoReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E6108E6407E3C0A809AC8448805161 /* XYDashLineProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DBA025F1482DDE837F4061B5077FA5 /* XYDashLineProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FA2993BE6CFE816221F676F11E6BE1 /* FUCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DA0D02B470EE6CBB54AF8D90407C8 /* FUCamera.m */; };
+		FB3DE2A21868E28171DBDF06782FB65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C27EF49D9C2E04976184BE0867BDC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9117206BD302061DE9322C9E09BA2B7C;
+			remoteInfo = DynamicLiveDetect;
+		};
+		BD52B181B9FBC744454D8B8C3FBDBB45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EE9817ED612D0E704982D09FE8E63E4;
+			remoteInfo = "Pods-DynamicLiveDetect_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8517F8B620A4A4BFFD3455CAA693EE /* Pods-DynamicLiveDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F218756A6C35383691D343443A82A8D /* FUVideoReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUVideoReader.h; sourceTree = "<group>"; };
+		0F2518538D7544A561F2F66DAB9AB46B /* Pods-DynamicLiveDetect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Example-Info.plist"; sourceTree = "<group>"; };
+		18340BC9F50BA41AD8D070CEFE9B6819 /* Pods-DynamicLiveDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C9A9D10078BD7720C9F456EFAA23578 /* FUVideoReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUVideoReader.m; sourceTree = "<group>"; };
+		1EACD467FB939A406BDFB63B4457309E /* DynamicLiveDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicLiveDetect-dummy.m"; sourceTree = "<group>"; };
+		22C7EFE6DF7E8AB1E48CA41995E15E35 /* Pods-DynamicLiveDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicLiveDetect_Example-dummy.m"; sourceTree = "<group>"; };
+		2B05DCA9FBE325DA460B02A41B34B3F3 /* DynamicLiveDetectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectManager.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.m; sourceTree = "<group>"; };
+		2CF42C188089766071B12166E293FD14 /* Pods-DynamicLiveDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicLiveDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31E7E08A20C5F1A74E748222D4BCC7E2 /* DynamicLiveDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectViewController.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32CD3471D3D75D2FD6850E5049001423 /* Pods-DynamicLiveDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33165372AEBB62015A46A1F4D493E8D5 /* LLGifImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLGifImageView.m; sourceTree = "<group>"; };
+		3663B8491A3805D1CEB4D7D2A011407A /* DynamicLiveDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-umbrella.h"; sourceTree = "<group>"; };
+		3994F270DAC2C175390A8FE4C7B3E2F0 /* LLGifImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLGifImageView.h; sourceTree = "<group>"; };
+		470566EF8849A3CC1A3F0E4028127C8D /* FUImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUImageHelper.m; sourceTree = "<group>"; };
+		4732944730D8FA654F81E822465DEE84 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4833AAD52B9DD300D12ECFB17AFCC76E /* Pods-DynamicLiveDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicLiveDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4B8F76CD789E4F5DD4E5B8FFB522BEB4 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
+		4D2BF453795C8C49714847766766DAAB /* Pods-DynamicLiveDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicLiveDetect_Example-umbrella.h"; sourceTree = "<group>"; };
+		510CE355B28AFEA983B36FA036925CB0 /* Pods-DynamicLiveDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicLiveDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55DA1A2D624DD345308A98C56D36E7F3 /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5908BB759DF4D0E20F717A7D576C9745 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
+		5DF6F75E062E94BF6BA823EF83D17D37 /* Pods_DynamicLiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicLiveDetect_Example.framework; path = "Pods-DynamicLiveDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A7EEE248EFCF801CB1953FCE7967AE /* DynamicLiveDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicLiveDetect.modulemap; sourceTree = "<group>"; };
+		6A7AE6526BFA0AAA7B2E400B3DB2B048 /* DynamicLiveDetectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectViewController.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.m; sourceTree = "<group>"; };
+		6B1A35E5CD8B3208CD05A1FB450734A5 /* Pods-DynamicLiveDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicLiveDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DA2DF29F4E0F0C9FA051E7C069BF79A /* Pods-DynamicLiveDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E594AA1A3053C9002ECD5832C173718 /* Pods-DynamicLiveDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Tests-Info.plist"; sourceTree = "<group>"; };
+		73DBA025F1482DDE837F4061B5077FA5 /* XYDashLineProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYDashLineProgress.h; sourceTree = "<group>"; };
+		764A3DD5B141567A535D83995FDB598B /* DynamicLiveDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DynamicLiveDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7CC8023E70A51ED10C5477E56EE3E062 /* FUOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOpenGLView.h; sourceTree = "<group>"; };
+		7D2981AF3FCEFAD832085C10DA51547B /* UIView+XYCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYCapture.m"; sourceTree = "<group>"; };
+		7DA07AFA031C72BA5A8FE7D0D26E7BCF /* UIView+ZPFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZPFrame.m"; sourceTree = "<group>"; };
+		81C7923D9B9E44E6252C191A0ED53B3A /* DynamicLiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.release.xcconfig; sourceTree = "<group>"; };
+		97A3CEB929079BD92798D7B0FEF3DB2D /* DynamicLiveDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicLiveDetect.framework; path = DynamicLiveDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4B671290CCF705CECB99ECD2AC2F70D /* Pods-DynamicLiveDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamicLiveDetect_Example.modulemap"; sourceTree = "<group>"; };
+		A58225DD17C9A8F334F155079BAF713A /* DynamicLiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.debug.xcconfig; sourceTree = "<group>"; };
+		A8451092B7B707364041E9FD27D27858 /* DynamicLiveDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-prefix.pch"; sourceTree = "<group>"; };
+		AA6F540301EE354411F1F8E1516E441A /* WCLRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		ABC64E710EB8BF46C6BF695C7BCA09CF /* FUMusicPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUMusicPlayer.m; sourceTree = "<group>"; };
+		B2376249B2B815DEE67A2FD147FD1A51 /* Pods-DynamicLiveDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamicLiveDetect_Tests.modulemap"; sourceTree = "<group>"; };
+		BEFF0BCEF14CCA0B0B14C32C76CBD179 /* FUMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicPlayer.h; sourceTree = "<group>"; };
+		C1154BAF8BEB31C431963AE7064C5B34 /* DynamicLiveDetectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectManager.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.h; sourceTree = "<group>"; };
+		C303A758DE9E4AA2FBC09AE42E071DCC /* FUCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCamera.h; sourceTree = "<group>"; };
+		C49DA0D02B470EE6CBB54AF8D90407C8 /* FUCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUCamera.m; sourceTree = "<group>"; };
+		C848CC5D686DA4596AB8D03C6C225901 /* UIView+XYCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XYCapture.h"; sourceTree = "<group>"; };
+		C979DA2DC80A3B7C2E8CF872101E7C3B /* Pods_DynamicLiveDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicLiveDetect_Tests.framework; path = "Pods-DynamicLiveDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22D256B5072D2984CF337DDE68F6AFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D817020624BBEDD29FD252CF1BFFDAB3 /* XYDashLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYDashLineProgress.m; sourceTree = "<group>"; };
+		DA4349B6766A1892AE639F3FEEB9770E /* FUOpenGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUOpenGLView.m; sourceTree = "<group>"; };
+		DC3936F07E95AC430DF8C275A8D0DBD8 /* Pods-DynamicLiveDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicLiveDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E065C2A03537C842BF00A2DA6268D4FB /* DynamicLiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicLiveDetect-Info.plist"; sourceTree = "<group>"; };
+		F57BEEA7C984717778E11947961A534F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE3AC0956B22A1A190000091742FE9CF /* UIView+ZPFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZPFrame.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397BFE236B386A98D1580EE1367A21CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4B331A6B23A6797D6AB0D25D3D914F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879C0148413E6FDC9CC2F64175934E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0A77CBA6669C5410C64B3FD4A9562A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C83F03B3901EE02869362DD711BF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3DE2A21868E28171DBDF06782FB65D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104FB69324DF76484AA3C2F606E5CBE9 /* Pods-DynamicLiveDetect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4B671290CCF705CECB99ECD2AC2F70D /* Pods-DynamicLiveDetect_Example.modulemap */,
+				2CF42C188089766071B12166E293FD14 /* Pods-DynamicLiveDetect_Example-acknowledgements.markdown */,
+				0A8517F8B620A4A4BFFD3455CAA693EE /* Pods-DynamicLiveDetect_Example-acknowledgements.plist */,
+				22C7EFE6DF7E8AB1E48CA41995E15E35 /* Pods-DynamicLiveDetect_Example-dummy.m */,
+				4833AAD52B9DD300D12ECFB17AFCC76E /* Pods-DynamicLiveDetect_Example-frameworks.sh */,
+				0F2518538D7544A561F2F66DAB9AB46B /* Pods-DynamicLiveDetect_Example-Info.plist */,
+				4D2BF453795C8C49714847766766DAAB /* Pods-DynamicLiveDetect_Example-umbrella.h */,
+				6DA2DF29F4E0F0C9FA051E7C069BF79A /* Pods-DynamicLiveDetect_Example.debug.xcconfig */,
+				18340BC9F50BA41AD8D070CEFE9B6819 /* Pods-DynamicLiveDetect_Example.release.xcconfig */,
+			);
+			name = "Pods-DynamicLiveDetect_Example";
+			path = "Target Support Files/Pods-DynamicLiveDetect_Example";
+			sourceTree = "<group>";
+		};
+		202940D9DB7F7CCD17C5DB439B7073DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				764A3DD5B141567A535D83995FDB598B /* DynamicLiveDetect.podspec */,
+				F57BEEA7C984717778E11947961A534F /* LICENSE */,
+				D22D256B5072D2984CF337DDE68F6AFA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30798C1CFAE0131EA105FD5D995E032B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A7EEE248EFCF801CB1953FCE7967AE /* DynamicLiveDetect.modulemap */,
+				1EACD467FB939A406BDFB63B4457309E /* DynamicLiveDetect-dummy.m */,
+				E065C2A03537C842BF00A2DA6268D4FB /* DynamicLiveDetect-Info.plist */,
+				A8451092B7B707364041E9FD27D27858 /* DynamicLiveDetect-prefix.pch */,
+				3663B8491A3805D1CEB4D7D2A011407A /* DynamicLiveDetect-umbrella.h */,
+				A58225DD17C9A8F334F155079BAF713A /* DynamicLiveDetect.debug.xcconfig */,
+				81C7923D9B9E44E6252C191A0ED53B3A /* DynamicLiveDetect.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DynamicLiveDetect";
+			sourceTree = "<group>";
+		};
+		85B32648D0F7E54667AEA1E284580FAE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D0E0251B496598D35D37EE9CE75A3 /* DynamicLiveDetect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B95C3E9BC46536AEE40AB3199555E33 /* Pods-DynamicLiveDetect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2376249B2B815DEE67A2FD147FD1A51 /* Pods-DynamicLiveDetect_Tests.modulemap */,
+				510CE355B28AFEA983B36FA036925CB0 /* Pods-DynamicLiveDetect_Tests-acknowledgements.markdown */,
+				32CD3471D3D75D2FD6850E5049001423 /* Pods-DynamicLiveDetect_Tests-acknowledgements.plist */,
+				6B1A35E5CD8B3208CD05A1FB450734A5 /* Pods-DynamicLiveDetect_Tests-dummy.m */,
+				6E594AA1A3053C9002ECD5832C173718 /* Pods-DynamicLiveDetect_Tests-Info.plist */,
+				DC3936F07E95AC430DF8C275A8D0DBD8 /* Pods-DynamicLiveDetect_Tests-umbrella.h */,
+				55DA1A2D624DD345308A98C56D36E7F3 /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */,
+				4732944730D8FA654F81E822465DEE84 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */,
+			);
+			name = "Pods-DynamicLiveDetect_Tests";
+			path = "Target Support Files/Pods-DynamicLiveDetect_Tests";
+			sourceTree = "<group>";
+		};
+		8CFCDA99EB886E6354B79BB13E4906CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97A3CEB929079BD92798D7B0FEF3DB2D /* DynamicLiveDetect.framework */,
+				5DF6F75E062E94BF6BA823EF83D17D37 /* Pods_DynamicLiveDetect_Example.framework */,
+				C979DA2DC80A3B7C2E8CF872101E7C3B /* Pods_DynamicLiveDetect_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FF86FD0FBB623203BFC054DA9D1011 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3994F270DAC2C175390A8FE4C7B3E2F0 /* LLGifImageView.h */,
+				33165372AEBB62015A46A1F4D493E8D5 /* LLGifImageView.m */,
+				DEE74DA325F5A0422599A717CE5BDD7E /* Camera */,
+			);
+			name = Utils;
+			path = DynamicLiveDetect/Classes/Dynamic/Utils;
+			sourceTree = "<group>";
+		};
+		C07361C6B4C4CB97DFAF53BF2CB3F69E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C848CC5D686DA4596AB8D03C6C225901 /* UIView+XYCapture.h */,
+				7D2981AF3FCEFAD832085C10DA51547B /* UIView+XYCapture.m */,
+				FE3AC0956B22A1A190000091742FE9CF /* UIView+ZPFrame.h */,
+				7DA07AFA031C72BA5A8FE7D0D26E7BCF /* UIView+ZPFrame.m */,
+			);
+			name = Category;
+			path = DynamicLiveDetect/Classes/Dynamic/Category;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDEA187275638E453915843E11F0CA24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				104FB69324DF76484AA3C2F606E5CBE9 /* Pods-DynamicLiveDetect_Example */,
+				8B95C3E9BC46536AEE40AB3199555E33 /* Pods-DynamicLiveDetect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				85B32648D0F7E54667AEA1E284580FAE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8CFCDA99EB886E6354B79BB13E4906CA /* Products */,
+				CDEA187275638E453915843E11F0CA24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBEFF6C9191D402499BA4EF784D649C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73DBA025F1482DDE837F4061B5077FA5 /* XYDashLineProgress.h */,
+				D817020624BBEDD29FD252CF1BFFDAB3 /* XYDashLineProgress.m */,
+			);
+			name = View;
+			path = DynamicLiveDetect/Classes/Dynamic/View;
+			sourceTree = "<group>";
+		};
+		DEE74DA325F5A0422599A717CE5BDD7E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				C303A758DE9E4AA2FBC09AE42E071DCC /* FUCamera.h */,
+				C49DA0D02B470EE6CBB54AF8D90407C8 /* FUCamera.m */,
+				4B8F76CD789E4F5DD4E5B8FFB522BEB4 /* FUImageHelper.h */,
+				470566EF8849A3CC1A3F0E4028127C8D /* FUImageHelper.m */,
+				BEFF0BCEF14CCA0B0B14C32C76CBD179 /* FUMusicPlayer.h */,
+				ABC64E710EB8BF46C6BF695C7BCA09CF /* FUMusicPlayer.m */,
+				7CC8023E70A51ED10C5477E56EE3E062 /* FUOpenGLView.h */,
+				DA4349B6766A1892AE639F3FEEB9770E /* FUOpenGLView.m */,
+				0F218756A6C35383691D343443A82A8D /* FUVideoReader.h */,
+				1C9A9D10078BD7720C9F456EFAA23578 /* FUVideoReader.m */,
+				AA6F540301EE354411F1F8E1516E441A /* WCLRecordEncoder.h */,
+				5908BB759DF4D0E20F717A7D576C9745 /* WCLRecordEncoder.m */,
+			);
+			name = Camera;
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		EA1D0E0251B496598D35D37EE9CE75A3 /* DynamicLiveDetect */ = {
+			isa = PBXGroup;
+			children = (
+				C1154BAF8BEB31C431963AE7064C5B34 /* DynamicLiveDetectManager.h */,
+				2B05DCA9FBE325DA460B02A41B34B3F3 /* DynamicLiveDetectManager.m */,
+				31E7E08A20C5F1A74E748222D4BCC7E2 /* DynamicLiveDetectViewController.h */,
+				6A7AE6526BFA0AAA7B2E400B3DB2B048 /* DynamicLiveDetectViewController.m */,
+				C07361C6B4C4CB97DFAF53BF2CB3F69E /* Category */,
+				202940D9DB7F7CCD17C5DB439B7073DE /* Pod */,
+				30798C1CFAE0131EA105FD5D995E032B /* Support Files */,
+				94FF86FD0FBB623203BFC054DA9D1011 /* Utils */,
+				DBEFF6C9191D402499BA4EF784D649C2 /* View */,
+			);
+			name = DynamicLiveDetect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		282F39C6074AD69F43A9438868ADC03A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291C954D748FF55A7DA9515935196202 /* DynamicLiveDetect-umbrella.h in Headers */,
+				08546412BC4FDF6CF3E38939450E1231 /* DynamicLiveDetectManager.h in Headers */,
+				4466C872DCDC5BC2C43B173FBA7BBAB0 /* DynamicLiveDetectViewController.h in Headers */,
+				9F8F77B02F94761D4EE6F56BB14B9CC8 /* FUCamera.h in Headers */,
+				29D03363A3DF9CD95E8C0E8D02E8E9B3 /* FUImageHelper.h in Headers */,
+				EB5A7C52C6E8745BCD8D2EE7E3D152AC /* FUMusicPlayer.h in Headers */,
+				3F0A9523A1035D5D1E7F1454BD4151A0 /* FUOpenGLView.h in Headers */,
+				F331794DFA34D2E5B4B068A6B4373719 /* FUVideoReader.h in Headers */,
+				CBE83328F18CE0C2BFA562CFB6E16181 /* LLGifImageView.h in Headers */,
+				A22A197B02D798CB65E567C46A02A688 /* UIView+XYCapture.h in Headers */,
+				97C1B662AA2679D21E30D65D3C1A9908 /* UIView+ZPFrame.h in Headers */,
+				CED1A10819763A395217D953BA2A1442 /* WCLRecordEncoder.h in Headers */,
+				F7E6108E6407E3C0A809AC8448805161 /* XYDashLineProgress.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BD56BE2D6F9B4BAE73369DDCBC99E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1927D276F425AC68AEC72A05A5E7054 /* Pods-DynamicLiveDetect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA04D49775334F22218D3C74BCDA9CF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3C12A287C2A67B4EF2E3F0EC5D8A53 /* Pods-DynamicLiveDetect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EE9817ED612D0E704982D09FE8E63E4 /* Pods-DynamicLiveDetect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B43DAFCE2081000DFC1D2A9A5E49A8D /* Build configuration list for PBXNativeTarget "Pods-DynamicLiveDetect_Example" */;
+			buildPhases = (
+				44BD56BE2D6F9B4BAE73369DDCBC99E8 /* Headers */,
+				BF834E4B8D9735D97F25FF30103FED61 /* Sources */,
+				879C0148413E6FDC9CC2F64175934E9F /* Frameworks */,
+				6C07F5C97D697FA7E2B15618832DC991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4E72C13C5945D1DE4526A3A14F3C95 /* PBXTargetDependency */,
+			);
+			name = "Pods-DynamicLiveDetect_Example";
+			productName = "Pods-DynamicLiveDetect_Example";
+			productReference = 5DF6F75E062E94BF6BA823EF83D17D37 /* Pods_DynamicLiveDetect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9117206BD302061DE9322C9E09BA2B7C /* DynamicLiveDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FB892AE78163C8B78E8091622C3108 /* Build configuration list for PBXNativeTarget "DynamicLiveDetect" */;
+			buildPhases = (
+				282F39C6074AD69F43A9438868ADC03A /* Headers */,
+				69BF62871A521E14294828BDF164A511 /* Sources */,
+				E1C83F03B3901EE02869362DD711BF3B /* Frameworks */,
+				A07421B23E1445696F5C2F18C9A86167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicLiveDetect;
+			productName = DynamicLiveDetect;
+			productReference = 97A3CEB929079BD92798D7B0FEF3DB2D /* DynamicLiveDetect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA9ED6DF6C3336B43D9678AC5282C9E7 /* Pods-DynamicLiveDetect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EACF6277E79B6372F2BA1E403D219C /* Build configuration list for PBXNativeTarget "Pods-DynamicLiveDetect_Tests" */;
+			buildPhases = (
+				BA04D49775334F22218D3C74BCDA9CF1 /* Headers */,
+				0A5715BE3ED159197C02B60A68E267BC /* Sources */,
+				397BFE236B386A98D1580EE1367A21CF /* Frameworks */,
+				6A4B1CF788D762D1427CBE2FD45984A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111B5C08ABC70633A01D14AE30F6C37B /* PBXTargetDependency */,
+			);
+			name = "Pods-DynamicLiveDetect_Tests";
+			productName = "Pods-DynamicLiveDetect_Tests";
+			productReference = C979DA2DC80A3B7C2E8CF872101E7C3B /* Pods_DynamicLiveDetect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8CFCDA99EB886E6354B79BB13E4906CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9117206BD302061DE9322C9E09BA2B7C /* DynamicLiveDetect */,
+				6EE9817ED612D0E704982D09FE8E63E4 /* Pods-DynamicLiveDetect_Example */,
+				AA9ED6DF6C3336B43D9678AC5282C9E7 /* Pods-DynamicLiveDetect_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4B1CF788D762D1427CBE2FD45984A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C07F5C97D697FA7E2B15618832DC991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07421B23E1445696F5C2F18C9A86167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5715BE3ED159197C02B60A68E267BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53547026C6118E119CC013E9C91307F5 /* Pods-DynamicLiveDetect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF62871A521E14294828BDF164A511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E40917117B5D08DCC945FDAF4A2B93 /* DynamicLiveDetect-dummy.m in Sources */,
+				567E27333371EF153BD2B192B971731C /* DynamicLiveDetectManager.m in Sources */,
+				3CC824DB3B473E557A5D8B0EEB15BF44 /* DynamicLiveDetectViewController.m in Sources */,
+				F8FA2993BE6CFE816221F676F11E6BE1 /* FUCamera.m in Sources */,
+				D0FAC70FFAF27534846AE63171970240 /* FUImageHelper.m in Sources */,
+				8534A424345755CA5586F1E8270E2606 /* FUMusicPlayer.m in Sources */,
+				7DD416EAC23E2E5A37AE052AEF4A1C22 /* FUOpenGLView.m in Sources */,
+				F1C8A32CE201C3B03DFAADA9C698609D /* FUVideoReader.m in Sources */,
+				6F4CAB1B3AD85B2C083243A19B0D622A /* LLGifImageView.m in Sources */,
+				3ABCE76DF6F172891BCBC3CF5EDF2ECA /* UIView+XYCapture.m in Sources */,
+				136F03D5644BF0B11200AA5CAE1A5625 /* UIView+ZPFrame.m in Sources */,
+				BA1E1B41E9BEE85A9DFF03B289F7F44A /* WCLRecordEncoder.m in Sources */,
+				2BE52DBBD1DD34B7E9A6138F4F78B3A9 /* XYDashLineProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF834E4B8D9735D97F25FF30103FED61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0679F490970DC6DEEC384BA8ADD0990 /* Pods-DynamicLiveDetect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111B5C08ABC70633A01D14AE30F6C37B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DynamicLiveDetect_Example";
+			target = 6EE9817ED612D0E704982D09FE8E63E4 /* Pods-DynamicLiveDetect_Example */;
+			targetProxy = BD52B181B9FBC744454D8B8C3FBDBB45 /* PBXContainerItemProxy */;
+		};
+		1D4E72C13C5945D1DE4526A3A14F3C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicLiveDetect;
+			target = 9117206BD302061DE9322C9E09BA2B7C /* DynamicLiveDetect */;
+			targetProxy = 8C27EF49D9C2E04976184BE0867BDC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02EA672B7ADFA6B0E39EE85E1E05FFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4732944730D8FA654F81E822465DEE84 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46B2C6E882FCFDAC93B89B28BAF2868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DA1A2D624DD345308A98C56D36E7F3 /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A00DFD428F5CDE30C08CD1513CBBE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18340BC9F50BA41AD8D070CEFE9B6819 /* Pods-DynamicLiveDetect_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EB6F43F7032CF9E37DAFF1603B509A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58225DD17C9A8F334F155079BAF713A /* DynamicLiveDetect.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect.modulemap";
+				PRODUCT_MODULE_NAME = DynamicLiveDetect;
+				PRODUCT_NAME = DynamicLiveDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		696D2E4CDC2364A92100A2B3F3F02E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C7923D9B9E44E6252C191A0ED53B3A /* DynamicLiveDetect.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicLiveDetect/DynamicLiveDetect.modulemap";
+				PRODUCT_MODULE_NAME = DynamicLiveDetect;
+				PRODUCT_NAME = DynamicLiveDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E23ECED12A7822E60751E5DE196F718E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA2DF29F4E0F0C9FA051E7C069BF79A /* Pods-DynamicLiveDetect_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FB892AE78163C8B78E8091622C3108 /* Build configuration list for PBXNativeTarget "DynamicLiveDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB6F43F7032CF9E37DAFF1603B509A7 /* Debug */,
+				696D2E4CDC2364A92100A2B3F3F02E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B43DAFCE2081000DFC1D2A9A5E49A8D /* Build configuration list for PBXNativeTarget "Pods-DynamicLiveDetect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23ECED12A7822E60751E5DE196F718E /* Debug */,
+				5A00DFD428F5CDE30C08CD1513CBBE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EACF6277E79B6372F2BA1E403D219C /* Build configuration list for PBXNativeTarget "Pods-DynamicLiveDetect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B2C6E882FCFDAC93B89B28BAF2868F /* Debug */,
+				02EA672B7ADFA6B0E39EE85E1E05FFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

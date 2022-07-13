@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		1F85E158FB1A6EC83DA17214 /* Pods_DynamicLiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLiveDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAD7711C2D7EB8EF55F50FC /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLiveDetect_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3F161BA833DF2FFC3F2362CA /* DynamicLiveDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DynamicLiveDetect.podspec; path = ../DynamicLiveDetect.podspec; sourceTree = "<group>"; };
-		5803A80B364CAB00356E3CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3F161BA833DF2FFC3F2362CA /* DynamicLiveDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DynamicLiveDetect.podspec; path = ../DynamicLiveDetect.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5803A80B364CAB00356E3CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DynamicLiveDetect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLiveDetect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6767FE2ADE5FB4A7EF178E2F /* Pods-DynamicLiveDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLiveDetect_Example.debug.xcconfig"; path = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6CF8B52497EC7AE7873A8CA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6CF8B52497EC7AE7873A8CA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		716069D273E960CD45526C33 /* Pods-DynamicLiveDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLiveDetect_Example.release.xcconfig"; path = "Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		763C06850F763A779A16C372 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLiveDetect_Tests.release.xcconfig"; path = "Target Support Files/Pods-DynamicLiveDetect_Tests/Pods-DynamicLiveDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				2BAD7711C2D7EB8EF55F50FC /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */,
 				763C06850F763A779A16C372 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
