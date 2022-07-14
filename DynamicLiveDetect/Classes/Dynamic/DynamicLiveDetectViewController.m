@@ -290,7 +290,7 @@
         _avartImg = [[LLGifImageView alloc]initWithFrame:CGRectMake(0, 0, 145, 198)];
         _avartImg.center = _progressView.center;
 //        _avartImg.image = [UIImage imageNamed:@"imagepicker_postion"];
-        _avartImg.image = [UIImage imageNamed:"imagepicker_postion" inBundle:[self DLD_bundle] compatibleWithTraitCollection:nil];
+        _avartImg.image = [UIImage imageNamed:@"imagepicker_postion" inBundle:[self DLD_bundle] compatibleWithTraitCollection:nil];
     }
     return _avartImg;
 }
