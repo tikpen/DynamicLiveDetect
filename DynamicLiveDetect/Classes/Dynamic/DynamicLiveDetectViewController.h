@@ -12,7 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DynamicLiveDetectDelegate <NSObject>
 
-- (void)DynamicLiveDetectWithImageBase64String:(NSString *)imgBase64Str;
+- (void)dynamicLiveDetectSuccess:(NSString *)imgBase64Str;
+- (void)dynamicLiveDetectFailure:(NSString *)imgBase64Str;
 
 @end
 

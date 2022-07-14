@@ -20,9 +20,25 @@ it, simply add the following line to your Podfile:
 pod 'DynamicLiveDetect'
 ```
 
+## Usage
+    @property (nonatomic, strong) DynamicLiveDetectManager *detectManager;
+
+    DynamicLiveDetectManager *manager = [[DynamicLiveDetectManager alloc]init];
+    manager.delegate = self;
+    [manager dynamicLiveDetect];
+    self.detectManager = manager;
+    == delegate ==
+    - (void)liveDetectSuccessBase64Image:(NSString *)base64Str {
+       
+    }
+
+    - (void)liveDetectFailureBase64Image:(NSString *)base64Str {
+        
+    }
+
 ## Author
 
-tikpen, zhouphandsight@.cn
+tikpen
 
 ## License
 

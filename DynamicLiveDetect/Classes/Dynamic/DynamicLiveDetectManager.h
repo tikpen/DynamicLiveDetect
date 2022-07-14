@@ -14,7 +14,8 @@ typedef void (^failureBlock)(NSString *failedMessage);
 
 @protocol LiveDetectDelegate <NSObject>
 
-- (void)liveDetectBase64Image:(NSString *)base64Str;
+- (void)liveDetectSuccessBase64Image:(NSString *)base64Str;
+- (void)liveDetectFailureBase64Image:(NSString *)base64Str;
 
 @end
 

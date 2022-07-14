@@ -229,6 +229,11 @@
         //检测超时，退出检测，返回上一页
         UIImage *avartImage = [UIView xy_captureWithView:self.renderView];
         self.userImage = avartImage;
+        NSData *imageData = UIImageJPEGRepresentation(avartImage, 1);
+        NSString *base64Str = [imageData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+        if (self.delegate && [self.delegate respondsToSelector:@selector(dynamicLiveDetectFailure:)]) {
+            [self.delegate dynamicLiveDetectFailure:base64Str];
+        }
         [self dismissViewControllerAnimated:YES completion:nil];
     }
 }
@@ -358,8 +363,8 @@
                     [self.countDownTimer setFireDate:[NSDate distantFuture]];
                     NSData *imageData = UIImageJPEGRepresentation(avartImage, 1);
                     NSString *base64Str = [imageData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
-                    if (self.delegate && [self.delegate respondsToSelector:@selector(DynamicLiveDetectWithImageBase64String:)]) {
-                        [self.delegate DynamicLiveDetectWithImageBase64String:base64Str];
+                    if (self.delegate && [self.delegate respondsToSelector:@selector(dynamicLiveDetectSuccess:)]) {
+                        [self.delegate dynamicLiveDetectSuccess:base64Str];
                     }
                     [self dismissViewControllerAnimated:YES completion:nil];
                 });

@@ -27,12 +27,16 @@
     [nav presentViewController:vc animated:YES completion:nil];
 }
 
-- (void)DynamicLiveDetectWithImageBase64String:(NSString *)imgBase64Str{
-    if (self.delegate && [self.delegate respondsToSelector:@selector(liveDetectBase64Image:)]) {
-        [self.delegate liveDetectBase64Image:imgBase64Str];
+- (void)dynamicLiveDetectSuccess:(NSString *)imgBase64Str{
+    if (self.delegate && [self.delegate respondsToSelector:@selector(liveDetectSuccessBase64Image:)]) {
+        [self.delegate liveDetectSuccessBase64Image:imgBase64Str];
     }
 }
-
+- (void)dynamicLiveDetectFailure:(NSString *)imgBase64Str {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(liveDetectFailureBase64Image:)]) {
+        [self.delegate liveDetectFailureBase64Image:imgBase64Str];
+    }
+}
 
 -(UIViewController *)getCurrentVC{
     UIViewController *result = nil;
