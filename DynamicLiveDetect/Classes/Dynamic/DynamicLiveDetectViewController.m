@@ -154,6 +154,7 @@
 
 - (NSBundle *)DLD_bundle {
     NSString *bundle = [[NSBundle mainBundle] pathForResource:@"DynamicLiveDetect" ofType:@"bundle"];
+    return [NSBundle bundleWithPath:bundle];
 }
 - (void)loadCaptureGif{
     NSString *path = [[self DLD_bundle] pathForResource:@"face_capture" ofType:@"gif"];
