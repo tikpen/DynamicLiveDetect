@@ -12,6 +12,7 @@
 
 #import "UIView+XYCapture.h"
 #import "UIView+ZPFrame.h"
+#import "DynamicLiveDetect.h"
 #import "DynamicLiveDetectManager.h"
 #import "DynamicLiveDetectViewController.h"
 #import "FUCamera.h"
