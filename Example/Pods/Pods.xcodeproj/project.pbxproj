@@ -41,91 +41,92 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02AFD48E9AE0EF4892B33DE97D043E2D /* DynamicLiveDetectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CED54B35B4DABB70342998CE66AD5 /* DynamicLiveDetectManager.m */; };
-		0873AB48441EB92873CD93BD5E0EA7BB /* DynamicLiveDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A59DAA6AE36CF1C103D481521B5292F /* DynamicLiveDetect-dummy.m */; };
+		02AFD48E9AE0EF4892B33DE97D043E2D /* DynamicLiveDetectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0B476E12888D712604538CF8B4D2CF /* DynamicLiveDetectManager.m */; };
+		0873AB48441EB92873CD93BD5E0EA7BB /* DynamicLiveDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0893638D76E5DBADBE39DD2A0AB5E /* DynamicLiveDetect-dummy.m */; };
 		0A33FD49ECC466E65A29B793327FC13A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAFFED85D1BF950BE445C768EFE44C /* MASViewAttribute.m */; };
 		0B3C12A287C2A67B4EF2E3F0EC5D8A53 /* Pods-DynamicLiveDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 143DBC5E884D75938675683447F0DE00 /* Pods-DynamicLiveDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CEA99AB2CE1168AFED31BE6D37B703E /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A012BCD9398D5D6243A47A6373E1F2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E49102896F80A8B1D2B05AD4A618992 /* DynamicLiveDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 029234D36BFA622ECA1D847F36ACE367 /* DynamicLiveDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10514E4E866DF1B1D06C6DA68326563E /* DynamicLiveDetectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9DD7BD3AFFC4FA46C2E8C89CE3562B /* DynamicLiveDetectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14D74DC496E61A6493AB8FB95E7758EB /* FUOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1738307AA2B9ADB95A1532DE90DAA6 /* FUOpenGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E49102896F80A8B1D2B05AD4A618992 /* DynamicLiveDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B7446463241A81F8A9D2B86078AA54 /* DynamicLiveDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10514E4E866DF1B1D06C6DA68326563E /* DynamicLiveDetectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3A281F48BAF20646A55BA30A67C00F /* DynamicLiveDetectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14D74DC496E61A6493AB8FB95E7758EB /* FUOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = A478CC49723A85B837009867BE217965 /* FUOpenGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16AAAB1FF67BA813F5504C476D1F6FD0 /* face_capture.gif in Resources */ = {isa = PBXBuildFile; fileRef = E87E0A8088775FB7226656D4DD6A6D3D /* face_capture.gif */; };
 		1C9B32B9EAD63C1F6F419D3453284DA4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB300E2E7CE7207245AC21860DC9DB /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1F6C888428E9293687027DB4579D14D1 /* Pods-DynamicLiveDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212B87342325CDAF637EB992BFF70695 /* Pods-DynamicLiveDetect_Example-dummy.m */; };
 		283BF823362710B613E2A8758E0D5512 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D153AF5CDCBA65C1DE8740B756FBC6 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		299C40AEACD06A49FCE5BC4DEFBA2CC5 /* imagepicker_postion.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */; };
-		29BAD5153D8412C66C0F886771CEE1D8 /* UIView+XYCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9722B4F491B59E44A287069F419CAD /* UIView+XYCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29BAD5153D8412C66C0F886771CEE1D8 /* UIView+XYCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD144D49CC3F781F3DE5BC6B0CE466B /* UIView+XYCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C492A9F20889FC717A32B5FB201BE11 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6881744945CED07B842ED69E68B3678A /* MASViewConstraint.m */; };
 		2C4B07D71F8D8DC62224B7D2B6AE4F02 /* Pods-DynamicLiveDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D158257C9C5053928BF577D5F1A952 /* Pods-DynamicLiveDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34C828B5D06315F9F34E02097C5732F5 /* DynamicLiveDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC790EE0A8104993DB58B75D476CD66 /* DynamicLiveDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C828B5D06315F9F34E02097C5732F5 /* DynamicLiveDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE9A0FD2F3B2A6CB801754427A5743F /* DynamicLiveDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3899A10A7C965E21B5D5137D1B853F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
 		3CFFE7203B2AEFA5B7ECF2C8604ED4E7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A637BEA18AA024EBFC722F9D72AE8 /* ViewController+MASAdditions.m */; };
-		40BE330EA315A6D6F7BF703C69CB8FD6 /* FUCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F793BD28DB9480E79C8C20C4E2C96 /* FUCamera.m */; };
+		40BE330EA315A6D6F7BF703C69CB8FD6 /* FUCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC2586D018BD94F485D85D2DFB6958 /* FUCamera.m */; };
 		44705D82301D89329996ACC6A3015790 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 52829B7454474CFCFB32B4D879D00D2A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4515F673925EA828586951E8E469AB63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8699485C1384C5F50279153BCE8759A1 /* CoreGraphics.framework */; };
-		4599ED208FC94CC3D452F5921FA52979 /* FUMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FCBBAC0947D3DD8BBBAC4C82E86C7D /* FUMusicPlayer.m */; };
-		462D0F6689144F1357488B86986DC55E /* UIView+ZPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C213C5E80A9C5A7140BA7B88696F20D9 /* UIView+ZPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4599ED208FC94CC3D452F5921FA52979 /* FUMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 968BE2558291EDD64B714B3C607674CC /* FUMusicPlayer.m */; };
+		462D0F6689144F1357488B86986DC55E /* UIView+ZPFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F66704CDFAD02D3D8C2D57AFB3117E /* UIView+ZPFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F9E07EBEC9925357213AF4B52F3A14A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7E84E5CDDA579795DEE1E3DFA3D2E8 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50EB76AAF046C01607F9EA0D44708D18 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF203B918638EEA9BFABB06D6A8878C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53547026C6118E119CC013E9C91307F5 /* Pods-DynamicLiveDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE956E9754AF17FD7F5370562321E9C0 /* Pods-DynamicLiveDetect_Tests-dummy.m */; };
 		545D9569FCD62DC9E7C43F2215F780B2 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 13940BCBBC8248B2B237841C03A7D128 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		559FAEBA9BD01A7AD2D24E4A8B523790 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C135BFEDEEF7661AFCF7ACC7E7B9D0F0 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		588F20A49045E976885D162CCE6C06ED /* XYDashLineProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F22110BD18702C4D595EEDE106F6622B /* XYDashLineProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AD0A7ED60AC0DBB546D74F5739A5BCA /* XYDashLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 35431A74AA0CA79888988EC94BDCDB46 /* XYDashLineProgress.m */; };
+		588F20A49045E976885D162CCE6C06ED /* XYDashLineProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EA87905FD8954B2745006881FC9696 /* XYDashLineProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD0A7ED60AC0DBB546D74F5739A5BCA /* XYDashLineProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB7582EA04F1DD356CAD52CE5869C5 /* XYDashLineProgress.m */; };
 		5D019686DFF5C8C7586EE5AB1E113841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
-		60F3970BEF7579C949F1E4800A3B0246 /* DynamicLiveDetectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E17AAAFE08BBB07153A24CB641B4D1 /* DynamicLiveDetectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F3970BEF7579C949F1E4800A3B0246 /* DynamicLiveDetectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB90E9253D26D8C270A2C6EF812275E /* DynamicLiveDetectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6171A122D100E143558CD9983DB3B832 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBB2B1EADD571B2A9C34148BA4CAE66 /* MBProgressHUD-dummy.m */; };
 		62A2F7A50C9B07A044C3DE8B5FB4C439 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CF77527583C541E58440F9CEF4724F /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63A860C7C43A2E220AC0EF0E10F309AD /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F73DFB01D1BFFA2033013EFBFE22363 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6649A728E755036587C5B4DC60AC1827 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1607CBDA24A15CFD2DCB741E1443D2 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C8D909EA2474170CBE81C1CFAAA5BD7 /* WCLRecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF7925DCB91A2E021B1D19A8401A09 /* WCLRecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8D909EA2474170CBE81C1CFAAA5BD7 /* WCLRecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 106B90685D551EFF3A34583F9B00E6CF /* WCLRecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D7C0D6CBB612ADBA66B7B3CC7615D1A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A90F0DAC02E0D0B7B4847FBDDED9EA8A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		6F2644F38F9CA8092C90542652125D9B /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F19E60AC3BB6F631F3EB77B5BF3BDC /* FMDB-dummy.m */; };
 		728B5BE6ADA54B48840AC16A8208C5BC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 885A90FDB39EB026574A8654A30BEAD9 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		73C652114551AC9C3882E5E0CADC802E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B93B0487EB6A31EBCB26DC72CC1329CB /* MASCompositeConstraint.m */; };
 		7A5564B176FCEF2813847D2D06DB018B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
 		7C76A3CA233A1ACE13B56870FAE1A904 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF476994155D61D0F4731392C48AE78E /* View+MASAdditions.m */; };
-		7E6E4239934D96DC3439CEDB1853E939 /* FUImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 129C35436FFE00C8E37D10854A768419 /* FUImageHelper.m */; };
-		87621A86637B85375DC38B6D870248EC /* FUVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 535A8CF13C71A1AE6568668C34D1A72D /* FUVideoReader.m */; };
+		7E6E4239934D96DC3439CEDB1853E939 /* FUImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AADF0229352F456B3B0E6E1B7FF2C5 /* FUImageHelper.m */; };
+		87621A86637B85375DC38B6D870248EC /* FUVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E214BFFFC1F3802C393FBDD94F0F0 /* FUVideoReader.m */; };
 		8818872C60A77ECD6FB543D04864C817 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C064B99F615E4B25BC86905639CF18D /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		886DE7A45B6772E9D5ED37473471D88C /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A164C5F97432974B7A9F3A52775661F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C7D5AE9C1EF30053D758361DC0897 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D001A0552989CA06E44616D00F3652F7 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		89AE31D9D5EF04B4A1543A21BBAC40C1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC67C963E2428B8040CF9EEE234056B /* MBProgressHUD.m */; };
 		8CE3790B6D0116CC455A08E19BE43CB2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 302EB4FC60E8786432B88F85878D151E /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D3B44424B9096004F9D3A3A4281CA41 /* FUOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E560FC6C0D4803A58FDC6A4441257F /* FUOpenGLView.m */; };
+		8D3B44424B9096004F9D3A3A4281CA41 /* FUOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D17D8E180EF21525467BE824A772716 /* FUOpenGLView.m */; };
 		94B0DAF4D08ECA57EA6B080DE284928B /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0624F766757CD9B9D87EDAC46ABBD54D /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A9734DD5B7E22D619D93DBBE5FCC395 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA847213001662A517E2A928D74DC44 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BC73793AC5CCB35549DD7C666ABF5E4 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0196403C7960D07332D6705D0B484B /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DBFE9C026E7E0CCE6F4F5447E25E789 /* FUImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D839FD7078BB88CDCAC6EDF81EA70DA /* FUImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF114FB3DE1C94966CEB7C721EBC3C8 /* LLGifImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B357EB67C73F2638A682A983B33FA /* LLGifImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBFE9C026E7E0CCE6F4F5447E25E789 /* FUImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C16CCA19CF78C699E455C996D3101C3 /* FUImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF114FB3DE1C94966CEB7C721EBC3C8 /* LLGifImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 655F9BF01EB3507A5C269BC4ACABC9EC /* LLGifImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F4B331A6B23A6797D6AB0D25D3D914F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
-		A4BBDBCD92851C9273B9A7CD3B66E306 /* FUCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9AB45C0265E204E311269ABD22616E /* FUCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6E1AC5896C589A39D82ECE40243BE51 /* UIView+XYCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A27768E092FD78169943C27BD5C6A56 /* UIView+XYCapture.m */; };
+		A4BBDBCD92851C9273B9A7CD3B66E306 /* FUCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 0753F04597E433363C20E57784DE7CD6 /* FUCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6E1AC5896C589A39D82ECE40243BE51 /* UIView+XYCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E18ABE25ECEEC3551C3C6070EEC01D31 /* UIView+XYCapture.m */; };
 		A868F19D0AD8A2AFE98EB82089BA4D0F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2A099C4CDBD552737C8041268A68 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AB8D9520FB7E2CD11F4E49B90C88C423 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E0D9014A9D182FB85F9B8E08FDBA52 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACBC7352B53C258208567CC23162F613 /* FUMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D788587DE8842CD085166316AF1821 /* FUMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBC7352B53C258208567CC23162F613 /* FUMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E51405CC394DE1306FA3D529155B80 /* FUMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEBDBF8F98946F3E25CC1CDB895107C5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 992FD190088753B178526D53EA447071 /* MASConstraint.m */; };
 		AEEC7EB84ED2D7B5A706A599F8C21D2E /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF5ABAF58D8489DC99C9D9973371B76 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF333C9D030FA7EC0CEF57A77EBE1365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
 		AFDE855E7D929BAB9498DEAFAEFC01BF /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6137309DD791E5B6A18E26F17E7BCE2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0B8E0D5C2CDAB5349AE0A075A9C3809 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703F148AD0D0AEBFE3B1673E331B9DFD /* UIKit.framework */; };
-		B628030C6DB5D281E0738CFE021DA975 /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36076F278E976DBE068F65C38B2CE5 /* WCLRecordEncoder.m */; };
+		B628030C6DB5D281E0738CFE021DA975 /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8035E53F649A556287293B95A50BF7 /* WCLRecordEncoder.m */; };
 		B8A45B848A69778A63C8317108557D46 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0779FA740D77BED06F6244B52CAF50D1 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC5408F8F81233CB4BF92AC5E2A6FB4 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CCBA1AF042C638A1730314304D645F /* MASConstraintMaker.m */; };
-		BC167EB96030C612F8CDAA90A4B28ED3 /* DynamicLiveDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0DB34193CD8C2A19F3729DF717A558 /* DynamicLiveDetectViewController.m */; };
+		BC167EB96030C612F8CDAA90A4B28ED3 /* DynamicLiveDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66B3B8DCB2B3582667F0CBF1BE95F31 /* DynamicLiveDetectViewController.m */; };
 		BE6CCE15AE96F89991AA78B20262E029 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A31BB874146A3098CA3D47582BE247BE /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2ADE7211C46050159FA2574B20F26DD /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AD007C063B42F254C207EA2B66F082 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2BC371C674D79590FD498711A75BE89 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC3ECC10731C770A9CE5DFB37C7636 /* Masonry-dummy.m */; };
 		C3D1116915AA1FFD07311C5AB1A4FD34 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DBBABB39437BEABC4933986B1BB4A0 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4B52BE32AA2519CC4E1115C9E1203EC /* FUVideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F6264F27BE211787761B73C4B8CC98F1 /* FUVideoReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B52BE32AA2519CC4E1115C9E1203EC /* FUVideoReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 857F37B0D8D0CB445DE7F9EED7F353A8 /* FUVideoReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1ECE0478B1B38D13E36FE7BC8CEE8EE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 12712E5F83A8B8176447F755E719E781 /* NSArray+MASAdditions.m */; };
 		D6499707D5D7C5D887771CA7D1FEA950 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6EC63D7D6C3A2A4BA5FB52DAFBB426 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7FC9F8C2078A3F7966233F1368FE046 /* LLGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CEF91B2FA5C04CCAB7470353A732CF /* LLGifImageView.m */; };
+		D7FC9F8C2078A3F7966233F1368FE046 /* LLGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E78345E725EADBA754945CCA82AA7 /* LLGifImageView.m */; };
 		DEE6C0C1D664C2C9B83F3A85F6A0E9BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F2D6CB25AD8446D8991B9E8FFCE7FC /* QuartzCore.framework */; };
 		E23E96CD81AB3BDB2101052CED0038FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
 		E34617D661BF90A2C5140383BF83CD37 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEF8BCF2C38FE9CF27D19F233C84DD /* MASLayoutConstraint.m */; };
-		EDDC92415D739958B83C77D40096D317 /* UIView+ZPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D67F87C14865CCFCA968EF49CDC64 /* UIView+ZPFrame.m */; };
+		EDDC92415D739958B83C77D40096D317 /* UIView+ZPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6583DBA88CD0356E1FF3FD7ECFBE71C9 /* UIView+ZPFrame.m */; };
 		EF924DB84600323D5C3D400230CB877F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817101EA9B7F84FA5195CB3E76A6A1C /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F02F66CFB1AE085205BD9DBF8DFA15B8 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B68472996C9E495FFC016E0CC89A97E /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2AAE856A8B83C4089B2EABE37A328D /* imagepicker_postion.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6CF75911CBC2C0D6E73909C882134F /* imagepicker_postion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,141 +246,142 @@
 
 /* Begin PBXFileReference section */
 		0175AEB9E5DE7374D6BD8C42E64A19E1 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		029234D36BFA622ECA1D847F36ACE367 /* DynamicLiveDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-umbrella.h"; sourceTree = "<group>"; };
 		0624F766757CD9B9D87EDAC46ABBD54D /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		06D158257C9C5053928BF577D5F1A952 /* Pods-DynamicLiveDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicLiveDetect_Example-umbrella.h"; sourceTree = "<group>"; };
+		0753F04597E433363C20E57784DE7CD6 /* FUCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCamera.h; sourceTree = "<group>"; };
 		0779FA740D77BED06F6244B52CAF50D1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		0817101EA9B7F84FA5195CB3E76A6A1C /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		09B71CC653BA980F804220261C99FDCD /* MNNFaceDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNNFaceDetection.framework; sourceTree = "<group>"; };
 		09CB71D19F401D23834CDB06E2A3D388 /* Pods-DynamicLiveDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicLiveDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0A164C5F97432974B7A9F3A52775661F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0CB90E9253D26D8C270A2C6EF812275E /* DynamicLiveDetectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectManager.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.h; sourceTree = "<group>"; };
 		0CC67C963E2428B8040CF9EEE234056B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0F6E214BFFFC1F3802C393FBDD94F0F0 /* FUVideoReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUVideoReader.m; sourceTree = "<group>"; };
+		106B90685D551EFF3A34583F9B00E6CF /* WCLRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
 		12712E5F83A8B8176447F755E719E781 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		129C35436FFE00C8E37D10854A768419 /* FUImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUImageHelper.m; sourceTree = "<group>"; };
 		12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		13881EA1A51459C97306B350AD235407 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		13940BCBBC8248B2B237841C03A7D128 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		143DBC5E884D75938675683447F0DE00 /* Pods-DynamicLiveDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicLiveDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15EC2586D018BD94F485D85D2DFB6958 /* FUCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUCamera.m; sourceTree = "<group>"; };
 		1B68472996C9E495FFC016E0CC89A97E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1C16CCA19CF78C699E455C996D3101C3 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
 		1F56DB23F9B88CE73E7F8C220FFFC2B8 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B87342325CDAF637EB992BFF70695 /* Pods-DynamicLiveDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicLiveDetect_Example-dummy.m"; sourceTree = "<group>"; };
 		262084DF71E23A048D81C841FA8D4D18 /* Pods-DynamicLiveDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Tests-Info.plist"; sourceTree = "<group>"; };
-		29C165190633658045C01E063B55F8F5 /* ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist"; sourceTree = "<group>"; };
 		2C8F0D4694B290B88D4239E7BFE786B5 /* Pods-DynamicLiveDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamicLiveDetect_Tests.modulemap"; sourceTree = "<group>"; };
 		2CE659BB46F1400AC9F7D556D9085939 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		2D839FD7078BB88CDCAC6EDF81EA70DA /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
 		2F8930558A6F06C9A177CEABAC4E99A0 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		302EB4FC60E8786432B88F85878D151E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		304ACE2B8B3C3B50DA3D18331EF569C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		35431A74AA0CA79888988EC94BDCDB46 /* XYDashLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYDashLineProgress.m; sourceTree = "<group>"; };
+		3DD5A799308D34F9F90251CEE0200A7F /* DynamicLiveDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DynamicLiveDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4078BBDBABD9FFBB2D8E322DA34A1982 /* Pods-DynamicLiveDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicLiveDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4467F148E67AC7DD93308B251DC5D1EF /* Pods-DynamicLiveDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamicLiveDetect_Example.modulemap"; sourceTree = "<group>"; };
 		44A68DABDCB35E1E46AAFC74B11B4FFA /* MNNKitCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNNKitCore.debug.xcconfig; sourceTree = "<group>"; };
+		454E78345E725EADBA754945CCA82AA7 /* LLGifImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLGifImageView.m; sourceTree = "<group>"; };
 		461B10A636499964C03C9C702F41FA60 /* MNNFaceDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNNFaceDetection.release.xcconfig; sourceTree = "<group>"; };
-		4A59DAA6AE36CF1C103D481521B5292F /* DynamicLiveDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicLiveDetect-dummy.m"; sourceTree = "<group>"; };
+		4A8035E53F649A556287293B95A50BF7 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
 		4BD3AC838CDBA36D46BBCB28BCCEE7E6 /* MNNKitCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNNKitCore.framework; sourceTree = "<group>"; };
 		4E6EC63D7D6C3A2A4BA5FB52DAFBB426 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		52829B7454474CFCFB32B4D879D00D2A /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		535A8CF13C71A1AE6568668C34D1A72D /* FUVideoReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUVideoReader.m; sourceTree = "<group>"; };
+		53E51405CC394DE1306FA3D529155B80 /* FUMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicPlayer.h; sourceTree = "<group>"; };
 		5519C7D3AAB552021EA30FC81EC174D0 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		5C064B99F615E4B25BC86905639CF18D /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		5CF203B918638EEA9BFABB06D6A8878C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		5DF6F75E062E94BF6BA823EF83D17D37 /* Pods_DynamicLiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicLiveDetect_Example.framework; path = "Pods-DynamicLiveDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65FF7925DCB91A2E021B1D19A8401A09 /* WCLRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		655F9BF01EB3507A5C269BC4ACABC9EC /* LLGifImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLGifImageView.h; sourceTree = "<group>"; };
+		6583DBA88CD0356E1FF3FD7ECFBE71C9 /* UIView+ZPFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZPFrame.m"; sourceTree = "<group>"; };
 		67A012BCD9398D5D6243A47A6373E1F2 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		6881744945CED07B842ED69E68B3678A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		69E0D9014A9D182FB85F9B8E08FDBA52 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		6A0F793BD28DB9480E79C8C20C4E2C96 /* FUCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUCamera.m; sourceTree = "<group>"; };
-		6A27768E092FD78169943C27BD5C6A56 /* UIView+XYCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYCapture.m"; sourceTree = "<group>"; };
+		6B0B476E12888D712604538CF8B4D2CF /* DynamicLiveDetectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectManager.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.m; sourceTree = "<group>"; };
 		6BAB1E71341420B5DAC4246F33AB24EF /* pts.mnn */ = {isa = PBXFileReference; includeInIndex = 1; name = pts.mnn; path = MNNFaceDetection.framework/pts.mnn; sourceTree = "<group>"; };
-		6C9722B4F491B59E44A287069F419CAD /* UIView+XYCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XYCapture.h"; sourceTree = "<group>"; };
+		6D17D8E180EF21525467BE824A772716 /* FUOpenGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUOpenGLView.m; sourceTree = "<group>"; };
 		703F148AD0D0AEBFE3B1673E331B9DFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7145F1A55AB1D5F3C251F5680E0AEF91 /* Pods-DynamicLiveDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71CCBA1AF042C638A1730314304D645F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		71D788587DE8842CD085166316AF1821 /* FUMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicPlayer.h; sourceTree = "<group>"; };
 		75256E83822CAE53E548B4F86978C83C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		75310C5F3D839C546155B03B6BF96061 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76EA87905FD8954B2745006881FC9696 /* XYDashLineProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYDashLineProgress.h; sourceTree = "<group>"; };
+		76F66704CDFAD02D3D8C2D57AFB3117E /* UIView+ZPFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZPFrame.h"; sourceTree = "<group>"; };
 		79D153AF5CDCBA65C1DE8740B756FBC6 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		7A36076F278E976DBE068F65C38B2CE5 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
 		7BAEF36FD50AEE7978CB5DCFB208E634 /* MNN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNN.debug.xcconfig; sourceTree = "<group>"; };
 		7C1607CBDA24A15CFD2DCB741E1443D2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		7F73DFB01D1BFFA2033013EFBFE22363 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		80AADF0229352F456B3B0E6E1B7FF2C5 /* FUImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUImageHelper.m; sourceTree = "<group>"; };
 		848B9C42F3E89DDB62B541C18906F7DC /* MNNKitCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNNKitCore.release.xcconfig; sourceTree = "<group>"; };
+		85168575408254A31A1B0667EC33478F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		857F37B0D8D0CB445DE7F9EED7F353A8 /* FUVideoReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUVideoReader.h; sourceTree = "<group>"; };
 		8699485C1384C5F50279153BCE8759A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8789EC9C21196E171C439BACC9550090 /* DynamicLiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.release.xcconfig; sourceTree = "<group>"; };
+		87C525AEDAE7E56574C33A181CB71FE7 /* DynamicLiveDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicLiveDetect.modulemap; sourceTree = "<group>"; };
 		885A90FDB39EB026574A8654A30BEAD9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		89CF8BC1D633495C4F44C0E8EC57CFBE /* DynamicLiveDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-prefix.pch"; sourceTree = "<group>"; };
-		8A9CED54B35B4DABB70342998CE66AD5 /* DynamicLiveDetectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectManager.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.m; sourceTree = "<group>"; };
 		8AAE8EB62C1C52102753602BF1128FF2 /* Pods-DynamicLiveDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E541372CCF25AA6CA6ED17C7C625E94 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		968BE2558291EDD64B714B3C607674CC /* FUMusicPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUMusicPlayer.m; sourceTree = "<group>"; };
 		9692195732AFDFA91AD6A1D0464E4AE1 /* Pods-DynamicLiveDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicLiveDetect_Example-resources.sh"; sourceTree = "<group>"; };
 		97A3CEB929079BD92798D7B0FEF3DB2D /* DynamicLiveDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicLiveDetect.framework; path = DynamicLiveDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		992FD190088753B178526D53EA447071 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9A17C655EC38B7F576924B7B567FDBB3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		9A3D67F87C14865CCFCA968EF49CDC64 /* UIView+ZPFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZPFrame.m"; sourceTree = "<group>"; };
 		9A9E27030C764C0B40AEE46F66BD3A30 /* MNN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNN.release.xcconfig; sourceTree = "<group>"; };
-		9B4B357EB67C73F2638A682A983B33FA /* LLGifImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLGifImageView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A31BB874146A3098CA3D47582BE247BE /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C3AD254E6765568E3F42436DAF436B /* DynamicLiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.debug.xcconfig; sourceTree = "<group>"; };
+		A478CC49723A85B837009867BE217965 /* FUOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOpenGLView.h; sourceTree = "<group>"; };
+		A5AFD6D43934AB5F5FDCD4CFB0F242FD /* DynamicLiveDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-prefix.pch"; sourceTree = "<group>"; };
 		A67AE360F3496B2CF6C35629DD09B806 /* Pods-DynamicLiveDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7E560FC6C0D4803A58FDC6A4441257F /* FUOpenGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUOpenGLView.m; sourceTree = "<group>"; };
 		A81BF1129CA18685665490EC8877DA56 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		A90F0DAC02E0D0B7B4847FBDDED9EA8A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		AA0196403C7960D07332D6705D0B484B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		AAFEF8BCF2C38FE9CF27D19F233C84DD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		AC9AB45C0265E204E311269ABD22616E /* FUCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCamera.h; sourceTree = "<group>"; };
 		ACA847213001662A517E2A928D74DC44 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		AF336B075EDE6ACD3BAD9D855363C907 /* Pods-DynamicLiveDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE9A0FD2F3B2A6CB801754427A5743F /* DynamicLiveDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetect.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetect.h; sourceTree = "<group>"; };
+		B4C0893638D76E5DBADBE39DD2A0AB5E /* DynamicLiveDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicLiveDetect-dummy.m"; sourceTree = "<group>"; };
 		B4FB300E2E7CE7207245AC21860DC9DB /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		B6137309DD791E5B6A18E26F17E7BCE2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		B6FAD23A1747FD369BCA48134486D0AF /* DynamicLiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.release.xcconfig; sourceTree = "<group>"; };
 		B7D6C79EB62E7CA46D2A31C5936F44FF /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = imagepicker_postion.png; path = DynamicLiveDetect/Assets/imagepicker_postion.png; sourceTree = "<group>"; };
 		B93B0487EB6A31EBCB26DC72CC1329CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		BF72775BD43C5DB6B1DF69ABDB71DBD3 /* DynamicLiveDetect.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DynamicLiveDetect.bundle; path = "DynamicLiveDetect-DynamicLiveDetect.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9DD7BD3AFFC4FA46C2E8C89CE3562B /* DynamicLiveDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectViewController.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.h; sourceTree = "<group>"; };
 		BFF5ABAF58D8489DC99C9D9973371B76 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		C135BFEDEEF7661AFCF7ACC7E7B9D0F0 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		C1DBBABB39437BEABC4933986B1BB4A0 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		C213C5E80A9C5A7140BA7B88696F20D9 /* UIView+ZPFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZPFrame.h"; sourceTree = "<group>"; };
 		C289ACBA19CE52A4FAD368311E27A2A5 /* Pods-DynamicLiveDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3F19E60AC3BB6F631F3EB77B5BF3BDC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		C621A349E939D3B52693F0A2C61715C5 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		C66B3B8DCB2B3582667F0CBF1BE95F31 /* DynamicLiveDetectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectViewController.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.m; sourceTree = "<group>"; };
 		C6AC3ECC10731C770A9CE5DFB37C7636 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		C6CF77527583C541E58440F9CEF4724F /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		C6FCBBAC0947D3DD8BBBAC4C82E86C7D /* FUMusicPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUMusicPlayer.m; sourceTree = "<group>"; };
 		C979DA2DC80A3B7C2E8CF872101E7C3B /* Pods_DynamicLiveDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicLiveDetect_Tests.framework; path = "Pods-DynamicLiveDetect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA0DB34193CD8C2A19F3729DF717A558 /* DynamicLiveDetectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DynamicLiveDetectViewController.m; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.m; sourceTree = "<group>"; };
+		CA839D5FA7DA05E000729C37D7B2FA32 /* ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist"; sourceTree = "<group>"; };
 		CB2A637BEA18AA024EBFC722F9D72AE8 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		CBB23E55407ED6D55C5B783EAD6882DB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		CC6DD5D8380D0718F9C21A792B286B1E /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
-		CCC790EE0A8104993DB58B75D476CD66 /* DynamicLiveDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetect.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetect.h; sourceTree = "<group>"; };
+		CD6CF75911CBC2C0D6E73909C882134F /* imagepicker_postion.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = imagepicker_postion.png; path = DynamicLiveDetect/Assets/imagepicker_postion.png; sourceTree = "<group>"; };
 		CE956E9754AF17FD7F5370562321E9C0 /* Pods-DynamicLiveDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicLiveDetect_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFBB2B1EADD571B2A9C34148BA4CAE66 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		D001A0552989CA06E44616D00F3652F7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		D5F2D6CB25AD8446D8991B9E8FFCE7FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D6E332BF6EF9A3E72F16DA2EA187031E /* DynamicLiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicLiveDetect-Info.plist"; sourceTree = "<group>"; };
+		DAD144D49CC3F781F3DE5BC6B0CE466B /* UIView+XYCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XYCapture.h"; sourceTree = "<group>"; };
 		DCCFA74F97000E7920B803FAC41CECA3 /* Pods-DynamicLiveDetect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicLiveDetect_Example-Info.plist"; sourceTree = "<group>"; };
 		DD8FD7E8B50A09BB2F26C72AD3A3D651 /* MNNFaceDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNNFaceDetection.debug.xcconfig; sourceTree = "<group>"; };
 		DDC77D9B59F0A2F5D22C388DCEA7B60C /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNN.framework; sourceTree = "<group>"; };
-		DF1738307AA2B9ADB95A1532DE90DAA6 /* FUOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOpenGLView.h; sourceTree = "<group>"; };
 		DF30D85D00F6518D13F7E4AFAEDB4A89 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		DFBAFFED85D1BF950BE445C768EFE44C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		E2815EA61F6F7EF005EC1035C6972BFF /* DynamicLiveDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicLiveDetect.modulemap; sourceTree = "<group>"; };
+		E18ABE25ECEEC3551C3C6070EEC01D31 /* UIView+XYCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYCapture.m"; sourceTree = "<group>"; };
 		E2AD007C063B42F254C207EA2B66F082 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
-		E4FDAA5BA73B22D980117D016387F8D3 /* DynamicLiveDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.debug.xcconfig; sourceTree = "<group>"; };
-		E5E17AAAFE08BBB07153A24CB641B4D1 /* DynamicLiveDetectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectManager.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectManager.h; sourceTree = "<group>"; };
-		E94A1C16B070D1854C1EA184F18C7EB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6B7446463241A81F8A9D2B86078AA54 /* DynamicLiveDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicLiveDetect-umbrella.h"; sourceTree = "<group>"; };
+		E87E0A8088775FB7226656D4DD6A6D3D /* face_capture.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = face_capture.gif; path = DynamicLiveDetect/Assets/face_capture.gif; sourceTree = "<group>"; };
+		EA3A281F48BAF20646A55BA30A67C00F /* DynamicLiveDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectViewController.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.h; sourceTree = "<group>"; };
 		EA5D2A099C4CDBD552737C8041268A68 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		EEE0D2FEFBAA98E29D5CF756639E85B3 /* Pods-DynamicLiveDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicLiveDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF476994155D61D0F4731392C48AE78E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		F22110BD18702C4D595EEDE106F6622B /* XYDashLineProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYDashLineProgress.h; sourceTree = "<group>"; };
-		F2BFBA6B96D77834E9C9536D0F17F3D6 /* DynamicLiveDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicLiveDetect-Info.plist"; sourceTree = "<group>"; };
-		F4CEF91B2FA5C04CCAB7470353A732CF /* LLGifImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLGifImageView.m; sourceTree = "<group>"; };
-		F6264F27BE211787761B73C4B8CC98F1 /* FUVideoReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUVideoReader.h; sourceTree = "<group>"; };
+		F2FB7582EA04F1DD356CAD52CE5869C5 /* XYDashLineProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYDashLineProgress.m; sourceTree = "<group>"; };
 		F951BF9096D4E2628B5821B63198BDB0 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		FA7E84E5CDDA579795DEE1E3DFA3D2E8 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		FD3AC3C7305B59ADB763D6C462A28EFD /* DynamicLiveDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DynamicLiveDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE76405DB438A7986C25122F4CA69730 /* det.mnn */ = {isa = PBXFileReference; includeInIndex = 1; name = det.mnn; path = MNNFaceDetection.framework/det.mnn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -464,24 +466,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A832687CC01F86FBEEBA3EA0F38B0E3 /* Resources */ = {
+		22E40A97DE88AB626157A7C8FFD67240 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */,
+				76EA87905FD8954B2745006881FC9696 /* XYDashLineProgress.h */,
+				F2FB7582EA04F1DD356CAD52CE5869C5 /* XYDashLineProgress.m */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2A83E42DA7557E7BABFEDDCEDB114070 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				6C9722B4F491B59E44A287069F419CAD /* UIView+XYCapture.h */,
-				6A27768E092FD78169943C27BD5C6A56 /* UIView+XYCapture.m */,
-				C213C5E80A9C5A7140BA7B88696F20D9 /* UIView+ZPFrame.h */,
-				9A3D67F87C14865CCFCA968EF49CDC64 /* UIView+ZPFrame.m */,
-			);
-			name = Category;
-			path = DynamicLiveDetect/Classes/Dynamic/Category;
+			name = View;
+			path = DynamicLiveDetect/Classes/Dynamic/View;
 			sourceTree = "<group>";
 		};
 		307339DEC15602EAAE5D21E35E8D6EF1 /* Support Files */ = {
@@ -513,6 +505,26 @@
 			path = "../Target Support Files/MNNFaceDetection";
 			sourceTree = "<group>";
 		};
+		37A299AB62D372E9A3098E3A74FA1EF1 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0753F04597E433363C20E57784DE7CD6 /* FUCamera.h */,
+				15EC2586D018BD94F485D85D2DFB6958 /* FUCamera.m */,
+				1C16CCA19CF78C699E455C996D3101C3 /* FUImageHelper.h */,
+				80AADF0229352F456B3B0E6E1B7FF2C5 /* FUImageHelper.m */,
+				53E51405CC394DE1306FA3D529155B80 /* FUMusicPlayer.h */,
+				968BE2558291EDD64B714B3C607674CC /* FUMusicPlayer.m */,
+				A478CC49723A85B837009867BE217965 /* FUOpenGLView.h */,
+				6D17D8E180EF21525467BE824A772716 /* FUOpenGLView.m */,
+				857F37B0D8D0CB445DE7F9EED7F353A8 /* FUVideoReader.h */,
+				0F6E214BFFFC1F3802C393FBDD94F0F0 /* FUVideoReader.m */,
+				106B90685D551EFF3A34583F9B00E6CF /* WCLRecordEncoder.h */,
+				4A8035E53F649A556287293B95A50BF7 /* WCLRecordEncoder.m */,
+			);
+			name = Camera;
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		3A3C226834C574BAE639F1ED10091060 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,16 +543,6 @@
 				6BAB1E71341420B5DAC4246F33AB24EF /* pts.mnn */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		3DE72B91D35335AC296D792A25AF7998 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FD3AC3C7305B59ADB763D6C462A28EFD /* DynamicLiveDetect.podspec */,
-				E94A1C16B070D1854C1EA184F18C7EB1 /* LICENSE */,
-				304ACE2B8B3C3B50DA3D18331EF569C1 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		3E22860646D0C1EB21D391006F5FCAA9 /* Pods-DynamicLiveDetect_Example */ = {
@@ -571,6 +573,15 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
+		548975A1D05A10A0F0A55F6B4C5DF692 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E87E0A8088775FB7226656D4DD6A6D3D /* face_capture.gif */,
+				CD6CF75911CBC2C0D6E73909C882134F /* imagepicker_postion.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		64B4B66969FB80813EEE496ED7F315CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,34 +590,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6AA0BC69B32F32EADC1F646CF3D6751A /* Camera */ = {
+		7B1FB365C0EA6C26C00138A70A59FF55 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				AC9AB45C0265E204E311269ABD22616E /* FUCamera.h */,
-				6A0F793BD28DB9480E79C8C20C4E2C96 /* FUCamera.m */,
-				2D839FD7078BB88CDCAC6EDF81EA70DA /* FUImageHelper.h */,
-				129C35436FFE00C8E37D10854A768419 /* FUImageHelper.m */,
-				71D788587DE8842CD085166316AF1821 /* FUMusicPlayer.h */,
-				C6FCBBAC0947D3DD8BBBAC4C82E86C7D /* FUMusicPlayer.m */,
-				DF1738307AA2B9ADB95A1532DE90DAA6 /* FUOpenGLView.h */,
-				A7E560FC6C0D4803A58FDC6A4441257F /* FUOpenGLView.m */,
-				F6264F27BE211787761B73C4B8CC98F1 /* FUVideoReader.h */,
-				535A8CF13C71A1AE6568668C34D1A72D /* FUVideoReader.m */,
-				65FF7925DCB91A2E021B1D19A8401A09 /* WCLRecordEncoder.h */,
-				7A36076F278E976DBE068F65C38B2CE5 /* WCLRecordEncoder.m */,
+				DAD144D49CC3F781F3DE5BC6B0CE466B /* UIView+XYCapture.h */,
+				E18ABE25ECEEC3551C3C6070EEC01D31 /* UIView+XYCapture.m */,
+				76F66704CDFAD02D3D8C2D57AFB3117E /* UIView+ZPFrame.h */,
+				6583DBA88CD0356E1FF3FD7ECFBE71C9 /* UIView+ZPFrame.m */,
 			);
-			name = Camera;
-			path = Camera;
-			sourceTree = "<group>";
-		};
-		8098AF894122B3E5EBFF6C112592D257 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F22110BD18702C4D595EEDE106F6622B /* XYDashLineProgress.h */,
-				35431A74AA0CA79888988EC94BDCDB46 /* XYDashLineProgress.m */,
-			);
-			name = View;
-			path = DynamicLiveDetect/Classes/Dynamic/View;
+			name = Category;
+			path = DynamicLiveDetect/Classes/Dynamic/Category;
 			sourceTree = "<group>";
 		};
 		82176A5C7A14E35B58DE09A5A7F0939B /* Support Files */ = {
@@ -673,17 +666,17 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
-		9600EC29AAF46B743424DD6C85D167F9 /* Support Files */ = {
+		92B840CCC86F9FF6C2AF33C490379C1B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2815EA61F6F7EF005EC1035C6972BFF /* DynamicLiveDetect.modulemap */,
-				4A59DAA6AE36CF1C103D481521B5292F /* DynamicLiveDetect-dummy.m */,
-				F2BFBA6B96D77834E9C9536D0F17F3D6 /* DynamicLiveDetect-Info.plist */,
-				89CF8BC1D633495C4F44C0E8EC57CFBE /* DynamicLiveDetect-prefix.pch */,
-				029234D36BFA622ECA1D847F36ACE367 /* DynamicLiveDetect-umbrella.h */,
-				E4FDAA5BA73B22D980117D016387F8D3 /* DynamicLiveDetect.debug.xcconfig */,
-				B6FAD23A1747FD369BCA48134486D0AF /* DynamicLiveDetect.release.xcconfig */,
-				29C165190633658045C01E063B55F8F5 /* ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist */,
+				87C525AEDAE7E56574C33A181CB71FE7 /* DynamicLiveDetect.modulemap */,
+				B4C0893638D76E5DBADBE39DD2A0AB5E /* DynamicLiveDetect-dummy.m */,
+				D6E332BF6EF9A3E72F16DA2EA187031E /* DynamicLiveDetect-Info.plist */,
+				A5AFD6D43934AB5F5FDCD4CFB0F242FD /* DynamicLiveDetect-prefix.pch */,
+				E6B7446463241A81F8A9D2B86078AA54 /* DynamicLiveDetect-umbrella.h */,
+				A3C3AD254E6765568E3F42436DAF436B /* DynamicLiveDetect.debug.xcconfig */,
+				8789EC9C21196E171C439BACC9550090 /* DynamicLiveDetect.release.xcconfig */,
+				CA839D5FA7DA05E000729C37D7B2FA32 /* ResourceBundle-DynamicLiveDetect-DynamicLiveDetect-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DynamicLiveDetect";
@@ -738,6 +731,16 @@
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
+		A50839CA1F4EC11779E1CB2796072C95 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5A799308D34F9F90251CEE0200A7F /* DynamicLiveDetect.podspec */,
+				85168575408254A31A1B0667EC33478F /* LICENSE */,
+				75310C5F3D839C546155B03B6BF96061 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A7BB41BC4FFAEE0795742891ADB4D23A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,7 +762,7 @@
 		B6D47F9F05D37DE6A34BA27807A059B2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA180B91D2F5252F16503CB3A231905C /* DynamicLiveDetect */,
+				CCEEA0EDA475AD8CBA69EB89BD62290F /* DynamicLiveDetect */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -783,6 +786,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CCEEA0EDA475AD8CBA69EB89BD62290F /* DynamicLiveDetect */ = {
+			isa = PBXGroup;
+			children = (
+				AFE9A0FD2F3B2A6CB801754427A5743F /* DynamicLiveDetect.h */,
+				0CB90E9253D26D8C270A2C6EF812275E /* DynamicLiveDetectManager.h */,
+				6B0B476E12888D712604538CF8B4D2CF /* DynamicLiveDetectManager.m */,
+				EA3A281F48BAF20646A55BA30A67C00F /* DynamicLiveDetectViewController.h */,
+				C66B3B8DCB2B3582667F0CBF1BE95F31 /* DynamicLiveDetectViewController.m */,
+				7B1FB365C0EA6C26C00138A70A59FF55 /* Category */,
+				A50839CA1F4EC11779E1CB2796072C95 /* Pod */,
+				548975A1D05A10A0F0A55F6B4C5DF692 /* Resources */,
+				92B840CCC86F9FF6C2AF33C490379C1B /* Support Files */,
+				DFC7E536925538E6CD8B6BF4B2207550 /* Utils */,
+				22E40A97DE88AB626157A7C8FFD67240 /* View */,
+			);
+			name = DynamicLiveDetect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -795,12 +817,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		D5AA439FD37C9CD68232C9215D4CA9B0 /* Utils */ = {
+		DFC7E536925538E6CD8B6BF4B2207550 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9B4B357EB67C73F2638A682A983B33FA /* LLGifImageView.h */,
-				F4CEF91B2FA5C04CCAB7470353A732CF /* LLGifImageView.m */,
-				6AA0BC69B32F32EADC1F646CF3D6751A /* Camera */,
+				655F9BF01EB3507A5C269BC4ACABC9EC /* LLGifImageView.h */,
+				454E78345E725EADBA754945CCA82AA7 /* LLGifImageView.m */,
+				37A299AB62D372E9A3098E3A74FA1EF1 /* Camera */,
 			);
 			name = Utils;
 			path = DynamicLiveDetect/Classes/Dynamic/Utils;
@@ -814,25 +836,6 @@
 			);
 			name = MNN;
 			path = MNN;
-			sourceTree = "<group>";
-		};
-		EA180B91D2F5252F16503CB3A231905C /* DynamicLiveDetect */ = {
-			isa = PBXGroup;
-			children = (
-				CCC790EE0A8104993DB58B75D476CD66 /* DynamicLiveDetect.h */,
-				E5E17AAAFE08BBB07153A24CB641B4D1 /* DynamicLiveDetectManager.h */,
-				8A9CED54B35B4DABB70342998CE66AD5 /* DynamicLiveDetectManager.m */,
-				BF9DD7BD3AFFC4FA46C2E8C89CE3562B /* DynamicLiveDetectViewController.h */,
-				CA0DB34193CD8C2A19F3729DF717A558 /* DynamicLiveDetectViewController.m */,
-				2A83E42DA7557E7BABFEDDCEDB114070 /* Category */,
-				3DE72B91D35335AC296D792A25AF7998 /* Pod */,
-				2A832687CC01F86FBEEBA3EA0F38B0E3 /* Resources */,
-				9600EC29AAF46B743424DD6C85D167F9 /* Support Files */,
-				D5AA439FD37C9CD68232C9215D4CA9B0 /* Utils */,
-				8098AF894122B3E5EBFF6C112592D257 /* View */,
-			);
-			name = DynamicLiveDetect;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F362C3F7484DBAA1F44FE79BF765CE42 /* Support Files */ = {
@@ -967,7 +970,7 @@
 			buildPhases = (
 				87FCC07E2EC15CD6047A5C2CD1D98D21 /* Sources */,
 				01650542F8C9D5E8CA19CB21E9BDE050 /* Frameworks */,
-				520DF170A74CE6A12875E6C5F92FFE74 /* Resources */,
+				EDA59C2C75AEF3D7F49D1D59D9D85863 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1149,14 +1152,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		520DF170A74CE6A12875E6C5F92FFE74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				299C40AEACD06A49FCE5BC4DEFBA2CC5 /* imagepicker_postion.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		57AF9027D204AA1D695A46ACA122C284 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1182,6 +1177,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA59C2C75AEF3D7F49D1D59D9D85863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AAAB1FF67BA813F5504C476D1F6FD0 /* face_capture.gif in Resources */,
+				FC2AAE856A8B83C4089B2EABE37A328D /* imagepicker_postion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1451,7 +1455,7 @@
 		};
 		12F3FB60170C967D0ABEE98B20B12855 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4FDAA5BA73B22D980117D016387F8D3 /* DynamicLiveDetect.debug.xcconfig */;
+			baseConfigurationReference = A3C3AD254E6765568E3F42436DAF436B /* DynamicLiveDetect.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DynamicLiveDetect";
@@ -1468,7 +1472,7 @@
 		};
 		13B49514FF961AD0B2F0EBB72BDBCCE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6FAD23A1747FD369BCA48134486D0AF /* DynamicLiveDetect.release.xcconfig */;
+			baseConfigurationReference = 8789EC9C21196E171C439BACC9550090 /* DynamicLiveDetect.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1808,7 +1812,7 @@
 		};
 		866113BF8644823A40F66FCD6061C957 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6FAD23A1747FD369BCA48134486D0AF /* DynamicLiveDetect.release.xcconfig */;
+			baseConfigurationReference = 8789EC9C21196E171C439BACC9550090 /* DynamicLiveDetect.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DynamicLiveDetect";
@@ -1856,7 +1860,7 @@
 		};
 		983236C8AF0584D1B7ACB416A1762D4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4FDAA5BA73B22D980117D016387F8D3 /* DynamicLiveDetect.debug.xcconfig */;
+			baseConfigurationReference = A3C3AD254E6765568E3F42436DAF436B /* DynamicLiveDetect.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

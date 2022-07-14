@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DynamicLiveDetect: 4b4276824ee8f4ec6c6731d56e1abaf65f689e5d
+  DynamicLiveDetect: 96dcccb3a43630473529e46f478347df731b66ed
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406

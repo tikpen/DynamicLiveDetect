@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'DynamicLiveDetect/Classes/**/*'
   s.static_framework = true
   s.resource_bundles = {
-    'DynamicLiveDetect' => ['DynamicLiveDetect/Assets/*.png']
+    'DynamicLiveDetect' => ['DynamicLiveDetect/Assets/*.{png,gif}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

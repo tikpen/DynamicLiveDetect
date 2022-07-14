@@ -22,7 +22,7 @@
   "static_framework": true,
   "resource_bundles": {
     "DynamicLiveDetect": [
-      "DynamicLiveDetect/Assets/*.png"
+      "DynamicLiveDetect/Assets/*.{png,gif}"
     ]
   },
   "dependencies": {
