@@ -152,8 +152,11 @@
     [self.maskView addGestureRecognizer:tap];
 }
 
+- (NSBundle *)DLD_bundle {
+    NSString *bundle = [[NSBundle mainBundle] pathForResource:@"DynamicLiveDetect" ofType:@"bundle"];
+}
 - (void)loadCaptureGif{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"face_capture" ofType:@"gif"];
+    NSString *path = [[self DLD_bundle] pathForResource:@"face_capture" ofType:@"gif"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     self.avartImg.gifData = data;
 }
@@ -285,7 +288,8 @@
     if (!_avartImg) {
         _avartImg = [[LLGifImageView alloc]initWithFrame:CGRectMake(0, 0, 145, 198)];
         _avartImg.center = _progressView.center;
-        _avartImg.image = [UIImage imageNamed:@"imagepicker_postion"];
+//        _avartImg.image = [UIImage imageNamed:@"imagepicker_postion"];
+        _avartImg.image = [UIImage imageNamed:"imagepicker_postion" inBundle:[self DLD_bundle] compatibleWithTraitCollection:nil];
     }
     return _avartImg;
 }
