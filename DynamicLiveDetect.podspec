@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'DynamicLiveDetect/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DynamicLiveDetect' => ['DynamicLiveDetect/Assets/*.png']
-  # }
+  s.static_framework = true
+  s.resource_bundles = {
+    'DynamicLiveDetect' => ['DynamicLiveDetect/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

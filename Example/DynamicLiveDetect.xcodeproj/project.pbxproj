@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				09A64E020519F2A6E6D8E836 /* [CP] Embed Pods Frameworks */,
+				4F9D5E69FD30AD2B6B122DC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,15 +303,41 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DynamicLiveDetect/DynamicLiveDetect.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicLiveDetect.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9D5E69FD30AD2B6B122DC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DynamicLiveDetect/DynamicLiveDetect.bundle",
+				"${PODS_ROOT}/MNNFaceDetection/MNNFaceDetection.framework/det.mnn",
+				"${PODS_ROOT}/MNNFaceDetection/MNNFaceDetection.framework/pts.mnn",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DynamicLiveDetect.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/det.mnn",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pts.mnn",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicLiveDetect_Example/Pods-DynamicLiveDetect_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		55E97C91470DD03F93F08028 /* [CP] Check Pods Manifest.lock */ = {

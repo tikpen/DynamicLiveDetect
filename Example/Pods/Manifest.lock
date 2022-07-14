@@ -1,15 +1,45 @@
 PODS:
-  - DynamicLiveDetect (0.1.0)
+  - DynamicLiveDetect (0.1.0):
+    - Masonry
+    - MBProgressHUD
+    - MNNFaceDetection
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MNN (0.2.2.2)
+  - MNNFaceDetection (0.0.4):
+    - MNN (= 0.2.2.2)
+    - MNNKitCore (~> 0.0.6)
+  - MNNKitCore (0.0.6):
+    - FMDB (= 2.7.5)
+    - MNN (= 0.2.2.2)
 
 DEPENDENCIES:
   - DynamicLiveDetect (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MNN
+    - MNNFaceDetection
+    - MNNKitCore
 
 EXTERNAL SOURCES:
   DynamicLiveDetect:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DynamicLiveDetect: 32820ea7ec2033edade713b933ce33356317132d
+  DynamicLiveDetect: 4b4276824ee8f4ec6c6731d56e1abaf65f689e5d
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MNN: 2e2b0226e30095cdac09304ffa97974f395c78b2
+  MNNFaceDetection: e0bef29efe15a2c335d1959ea872b8b0d72da956
+  MNNKitCore: c99f74b42d97d6c5e8e16bb99bee9270765e17ab
 
 PODFILE CHECKSUM: 621e6f81f7005941f37a53bf95c92401a5a060a1
 
