@@ -52,6 +52,7 @@
 		1C9B32B9EAD63C1F6F419D3453284DA4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB300E2E7CE7207245AC21860DC9DB /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1F6C888428E9293687027DB4579D14D1 /* Pods-DynamicLiveDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212B87342325CDAF637EB992BFF70695 /* Pods-DynamicLiveDetect_Example-dummy.m */; };
 		283BF823362710B613E2A8758E0D5512 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D153AF5CDCBA65C1DE8740B756FBC6 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299C40AEACD06A49FCE5BC4DEFBA2CC5 /* imagepicker_postion.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */; };
 		29BAD5153D8412C66C0F886771CEE1D8 /* UIView+XYCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9722B4F491B59E44A287069F419CAD /* UIView+XYCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C492A9F20889FC717A32B5FB201BE11 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6881744945CED07B842ED69E68B3678A /* MASViewConstraint.m */; };
 		2C4B07D71F8D8DC62224B7D2B6AE4F02 /* Pods-DynamicLiveDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D158257C9C5053928BF577D5F1A952 /* Pods-DynamicLiveDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,7 +82,6 @@
 		6F2644F38F9CA8092C90542652125D9B /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F19E60AC3BB6F631F3EB77B5BF3BDC /* FMDB-dummy.m */; };
 		728B5BE6ADA54B48840AC16A8208C5BC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 885A90FDB39EB026574A8654A30BEAD9 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		73C652114551AC9C3882E5E0CADC802E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B93B0487EB6A31EBCB26DC72CC1329CB /* MASCompositeConstraint.m */; };
-		7A523FBEEAC2E7FC9F890DB2AE543666 /* imagepicker_postion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F92D0EC25697CB64A499B7F7F04F426 /* imagepicker_postion@2x.png */; };
 		7A5564B176FCEF2813847D2D06DB018B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EDD0BF564072CA2EEEDAB0B64F55FD /* Foundation.framework */; };
 		7C76A3CA233A1ACE13B56870FAE1A904 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF476994155D61D0F4731392C48AE78E /* View+MASAdditions.m */; };
 		7E6E4239934D96DC3439CEDB1853E939 /* FUImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 129C35436FFE00C8E37D10854A768419 /* FUImageHelper.m */; };
@@ -286,7 +286,6 @@
 		5C064B99F615E4B25BC86905639CF18D /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		5CF203B918638EEA9BFABB06D6A8878C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		5DF6F75E062E94BF6BA823EF83D17D37 /* Pods_DynamicLiveDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicLiveDetect_Example.framework; path = "Pods-DynamicLiveDetect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F92D0EC25697CB64A499B7F7F04F426 /* imagepicker_postion@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "imagepicker_postion@2x.png"; path = "DynamicLiveDetect/Assets/imagepicker_postion@2x.png"; sourceTree = "<group>"; };
 		65FF7925DCB91A2E021B1D19A8401A09 /* WCLRecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
 		67A012BCD9398D5D6243A47A6373E1F2 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		6881744945CED07B842ED69E68B3678A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
@@ -336,6 +335,7 @@
 		B6137309DD791E5B6A18E26F17E7BCE2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		B6FAD23A1747FD369BCA48134486D0AF /* DynamicLiveDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicLiveDetect.release.xcconfig; sourceTree = "<group>"; };
 		B7D6C79EB62E7CA46D2A31C5936F44FF /* Pods-DynamicLiveDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicLiveDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = imagepicker_postion.png; path = DynamicLiveDetect/Assets/imagepicker_postion.png; sourceTree = "<group>"; };
 		B93B0487EB6A31EBCB26DC72CC1329CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		BF72775BD43C5DB6B1DF69ABDB71DBD3 /* DynamicLiveDetect.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DynamicLiveDetect.bundle; path = "DynamicLiveDetect-DynamicLiveDetect.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9DD7BD3AFFC4FA46C2E8C89CE3562B /* DynamicLiveDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicLiveDetectViewController.h; path = DynamicLiveDetect/Classes/Dynamic/DynamicLiveDetectViewController.h; sourceTree = "<group>"; };
@@ -464,6 +464,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A832687CC01F86FBEEBA3EA0F38B0E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8F6F5261BFCC4444229DAD8DE5A95AC /* imagepicker_postion.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2A83E42DA7557E7BABFEDDCEDB114070 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,14 +569,6 @@
 			);
 			name = FMDB;
 			path = FMDB;
-			sourceTree = "<group>";
-		};
-		635AEE090232212CC1D1340DCA46166C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5F92D0EC25697CB64A499B7F7F04F426 /* imagepicker_postion@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		64B4B66969FB80813EEE496ED7F315CE /* Frameworks */ = {
@@ -826,7 +826,7 @@
 				CA0DB34193CD8C2A19F3729DF717A558 /* DynamicLiveDetectViewController.m */,
 				2A83E42DA7557E7BABFEDDCEDB114070 /* Category */,
 				3DE72B91D35335AC296D792A25AF7998 /* Pod */,
-				635AEE090232212CC1D1340DCA46166C /* Resources */,
+				2A832687CC01F86FBEEBA3EA0F38B0E3 /* Resources */,
 				9600EC29AAF46B743424DD6C85D167F9 /* Support Files */,
 				D5AA439FD37C9CD68232C9215D4CA9B0 /* Utils */,
 				8098AF894122B3E5EBFF6C112592D257 /* View */,
@@ -967,7 +967,7 @@
 			buildPhases = (
 				87FCC07E2EC15CD6047A5C2CD1D98D21 /* Sources */,
 				01650542F8C9D5E8CA19CB21E9BDE050 /* Frameworks */,
-				68C7A68D9A80146A0F441C5F762D19F3 /* Resources */,
+				520DF170A74CE6A12875E6C5F92FFE74 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1149,18 +1149,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		520DF170A74CE6A12875E6C5F92FFE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299C40AEACD06A49FCE5BC4DEFBA2CC5 /* imagepicker_postion.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57AF9027D204AA1D695A46ACA122C284 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68C7A68D9A80146A0F441C5F762D19F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A523FBEEAC2E7FC9F890DB2AE543666 /* imagepicker_postion@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
